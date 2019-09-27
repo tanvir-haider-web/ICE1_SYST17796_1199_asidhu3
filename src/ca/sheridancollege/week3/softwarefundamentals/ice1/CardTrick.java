@@ -17,6 +17,7 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         
+        Random read = newRandom();
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
