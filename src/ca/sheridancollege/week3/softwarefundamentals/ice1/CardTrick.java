@@ -29,7 +29,10 @@ public class CardTrick {
         }
         
         System.out.println("Pick any card from the deck, a suit followed by the value.");
-        int i = in.nextInt();
+        Card luckyCard = new Card();
+        luckyCard.setValue(in.nextInt());
+        luckyCard.setSuit(in.next());
+        
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
