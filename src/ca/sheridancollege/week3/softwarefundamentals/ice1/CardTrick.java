@@ -37,6 +37,7 @@ public class CardTrick {
         
         
         Card[] luckyCard = new Card();
+        
     }
     
 }
