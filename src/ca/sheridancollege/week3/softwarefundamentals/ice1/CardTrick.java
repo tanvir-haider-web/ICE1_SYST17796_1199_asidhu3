@@ -42,12 +42,13 @@ public class CardTrick
                     Card luckyCard = new Card();
             luckyCard.setValue(1);
             luckyCard.setSuit("Spades");
-        magicHand[7] = c;
-        System.out.println("The value is " + magicHand[7].getValue);
-        System.out.println("The suit is " + magicHand[7].getSuit);
+        magicHand[7] = luckyCard;
+        System.out.println("The value is " + magicHand[7].getValue());
+        System.out.println("The suit is " + magicHand[7].getSuit());
 
         int value;
         String suit = "";
+        //Gets value from user
         while (true)
         {
             System.out.print("Enter the number of the card: ");
@@ -61,9 +62,10 @@ public class CardTrick
                 value = s.nextInt();
             }
         }
-
-        System.out.print("Please enter a suit. Spade = 0, Hearts = 1, Clubs = 2, Diamands = 3: ");
+//Enter suit from user
+        System.out.print("Please enter a suit. Spades, Hearts, Clubs, Diamands");
         suit = s.next();
+        //searches for card in the hand
         for (int x = 0; x < magicHand.length; x++)
         {
             if (magicHand[x].getValue() == value && magicHand[x].getSuit().equals(suit))
