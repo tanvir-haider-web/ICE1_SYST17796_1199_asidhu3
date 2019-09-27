@@ -35,6 +35,8 @@ public class CardTrick {
         int cardLow = 0;
         int cardHigh = 3;
         
+        Card[] luckyCard = new Card[2]; // Hard Coded luckyCard
+        
         Card[] magicHand = new Card[7];
         
         for (int i=0; i<magicHand.length; i++)
