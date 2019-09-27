@@ -19,7 +19,7 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         
-        for (int i=0; i<magicHand.length; i++)
+        for (int i=0; i<magicHand.length-1; i++)
         {
             Card c = new Card();
             Random ran = new Random();
@@ -30,6 +30,12 @@ public class CardTrick {
             
             magicHand[i] = c;
         }
+        
+        Card luckyCard = new Card;
+        luckyCard.setValue(5);
+        luckyCard.setSuit(2);
+        magicHand[6] = luckyCard;
+        
         //insert code to ask the user for Card value and suit, create their card
         System.out.println("Pick a card value (1-13)");
         Scanner scan = new Scanner(System.in);
