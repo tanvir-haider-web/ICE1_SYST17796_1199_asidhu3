@@ -18,24 +18,26 @@ public class CardTrick {
     public static void main(String[] args)
     {
         Card[] magicHand = new Card[7];
+        Card c = new Card();
         Random count = new Random();
         Scanner in = new Scanner(System.in);
         
         for (int i=0; i<magicHand.length; i++)
         {
-            Card c = new Card();
             c.setValue(count.nextInt(12) + 1);
             c.setSuit(Card.SUITS[count.nextInt(3)]);
         }
         
         System.out.println("Pick any card from the deck, a suit followed by the value.");
         Card luckyCard = new Card();
-        luckyCard.setValue(in.nextInt());
         luckyCard.setSuit(in.next());
+        luckyCard.setValue(in.nextInt());
         
-        //insert code to ask the user for Card value and suit, create their card
-        // and search magicHand here
-        //Then report the result here
+        if (c == luckyCard)
+            System.out.println("Your lucky card is in the magic hand.");
+        else
+            System.out.println("Your lucky card is NOT in the magic hand.");
+        
     }
     
 }
