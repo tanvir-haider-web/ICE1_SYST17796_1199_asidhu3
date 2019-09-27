@@ -35,7 +35,7 @@ public class Card {
         this.suit = suit;
     }
 
-    /**
+/**
      * @return the value
      */
     public int getValue() {
