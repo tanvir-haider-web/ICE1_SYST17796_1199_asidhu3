@@ -23,31 +23,40 @@ public class Card {
     /**
      * @return the suit
      */
-    public String getSuit() {
+    public String getSuit() 
+    {
         return suit;
     }
 
     /**
      * @param suit the suit to set
      */
-    public void setSuit(String suit) {
+    public void setSuit(String suit)
+     {
         this.suit = suit;
     }
 
     /**
      * @return the value
      */
-    public int getValue() {
+    public int getValue() 
+    {
         return value;
     }
 
     /**
      * @param value the value to set
      */
-    public void setValue(int value) {
+    public void setValue(int value) 
+    {
         this.value = value;
     }
    
-   
-    
+   //add two random methods to generate value and suits
+    public int randomCard(){
+        return (int)(Math.random()* 13) + 1;
+    }
+    public int randomSuit(){
+        return (int)(Math.random()* 4);
+    }
 }
