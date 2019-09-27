@@ -20,9 +20,7 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
-    /**
-     * @return the suit
-     */
+    
     public String getSuit() {
         return suit;
     }
@@ -46,6 +44,10 @@ public class Card {
      */
     public void setValue(int value) {
         this.value = value;
+    }
+
+    public void setSuit(String string, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
    
    

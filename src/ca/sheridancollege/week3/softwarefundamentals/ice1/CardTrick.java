@@ -1,3 +1,4 @@
+ import java.util.Scanner;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -20,13 +21,19 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
-            //c.setValue(insert call to random number generator here)
-            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
+            c.setValue(Math.round(i)*13);
+              c.setSuit(Card.SUITS[0+Math.round(i)*4]);
         }
         
         //insert code to ask the user for Card value and suit, create their card
+        System.out.println("enter card value");
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter suit 0-4");
+        Scanner su=new Scanner(System.in);
         // and search magicHand here
         //Then report the result here
+        
+        //“Finished adding code for 3 and 4 to CardTrick.java”. 
     }
     
 }
