@@ -36,7 +36,9 @@ public class CardTrick {
             int cardValue = sc.nextInt(); 
             int suitValue = sc.nextInt(); 
             
-            Lucky Card
+            luckyCard 
+                    cardvalue= 7;
+                    suitvalue=1;
             
             
             
