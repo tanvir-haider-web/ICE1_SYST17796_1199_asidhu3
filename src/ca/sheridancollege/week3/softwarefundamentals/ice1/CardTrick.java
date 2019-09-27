@@ -19,9 +19,11 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         
-        for (int i=0; i<magicHand.length; i++)
+        for (int i=0; i<magicHand.length-1; i++)
         {
             Card c = new Card();
+            Card luckycard = new Card();
+            magicHand [6] = c;
              Random r = new Random();
             
             //c.setValue(insert call to random number generator here)
