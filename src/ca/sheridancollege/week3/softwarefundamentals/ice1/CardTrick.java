@@ -3,6 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+//Eric Huynh
+//991458797
+
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
 /**
@@ -11,6 +15,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author dancye
  */
+
 public class CardTrick {
     
     public static void main(String[] args)
@@ -20,10 +25,12 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
+                
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
         
+        System.out.println("Pick a card, any card!");
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
