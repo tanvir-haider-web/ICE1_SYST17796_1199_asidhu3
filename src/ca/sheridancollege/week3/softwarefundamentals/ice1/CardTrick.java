@@ -3,6 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
+
+/* Timothy Stanek
+* Student Number : 991428353
+*/
+
+
+
+
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
 import java.util.*;
