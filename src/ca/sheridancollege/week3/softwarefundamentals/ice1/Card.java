@@ -11,12 +11,16 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * A suit (clubs, hearts, spades, diamonds).
  * There are 52 cards in a deck, no jokers.
  * This code is to be used in ICE1. When you create your own branch,
- * add your name as a modifier.
- * @author dancye
+ * //SANJEEV KUMAR
+ * @author Sanjeev Kumar
+ * student number 991533578
  */
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
+    static String SUITS(double d) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
