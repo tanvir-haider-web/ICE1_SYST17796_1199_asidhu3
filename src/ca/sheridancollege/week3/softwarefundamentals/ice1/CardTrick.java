@@ -56,8 +56,11 @@ public class CardTrick {
         //Then report the result here
         
     }
-
-   
+    
+ public class LuckyCard{
+     int cardNum = 5;
+     String suitCard = "spade";
+ }
 
     
     
