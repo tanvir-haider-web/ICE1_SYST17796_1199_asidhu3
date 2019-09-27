@@ -18,6 +18,9 @@ public class CardTrick
     {
         Card[] magicHand = new Card[7];
         Scanner sc = new Scanner(System.in);
+        Card luckyCard = new Card;
+        luckyCard.setValue(0);
+        luckyCard.setSuit(Card.SUITS[0]);
         
         for (int i=0; i < magicHand.length; i++)
         {
@@ -50,7 +53,7 @@ public class CardTrick
         else{
              System.out.println("Card is present");
         }
-       
+        System.out.println("Your lucky card value is "+ luckyCard.getValue()+" The suit is "+luckyCard.getSuit());
     }
     
 }
