@@ -37,6 +37,7 @@ public class CardTrick {
         
         //“Finished adding code for 3 and 4 to CardTrick.java”. 
       //“ Hard-coded luckyCard” 
+      //e“Displayed Suit and value of luckyCard - Final Commit)"
     }
     
 }
