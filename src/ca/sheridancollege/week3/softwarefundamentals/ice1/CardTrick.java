@@ -23,7 +23,7 @@ public class CardTrick
         Scanner s = new Scanner(System.in);
         Random rand = new Random();
 
-        Card[] magicHand = new Card[7];
+        Card[] magicHand = new Card[6];
 
         for (int i = 0; i < magicHand.length - 1; i++)
         {
