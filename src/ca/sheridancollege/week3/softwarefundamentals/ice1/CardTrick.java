@@ -37,11 +37,11 @@ public class CardTrick {
             int suitValue = sc.nextInt(); 
             
             luckyCard 
-                    cardvalue= 7;
-                    suitvalue=1;
+                    cardValue= 7;
+                    suitValue=1;
             
             
-            
+            System.out.println("The value of the lucky card is" + suitValue + cardValue);
        
             
 //insert code to ask the user for Card value and suit, create their card
