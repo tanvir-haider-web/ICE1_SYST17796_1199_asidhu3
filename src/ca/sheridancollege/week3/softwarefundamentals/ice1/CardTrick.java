@@ -31,7 +31,7 @@ public class CardTrick {
             Card c = new Card();
             Random r = new Random();
             //set Random Values for the Card
-            c.setValue(r.nextInt(8));
+            c.setValue(r.nextInt(14));
             c.setSuit(Card.SUITS[r.nextInt(4)]);
             System.out.println(""+c.getValue()+" "+c.getSuit());
             magicHand[i] = c;
@@ -56,6 +56,8 @@ public class CardTrick {
             System.out.println("Your Card is in the Magic Hand");
         else
             System.out.println("Sorry your Card is not in the Magic Hand");
+        
+        System.out.println("Your lucky card value is "+ luckyCard.getValue()+" The suit is "+luckyCard.getSuit());
     }
     
 }
