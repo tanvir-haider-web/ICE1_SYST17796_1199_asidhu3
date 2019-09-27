@@ -25,16 +25,16 @@ public class CardTrick {
             Random ran = new Random();
             c.setValue(ran.nextInt(13)+1);
             c.setSuit(Card.SUITS[ran.nextInt(4)]);
-            System.out.println("test: "+c.getValue());
-            System.out.println("test: "+c.getSuit());
             
             magicHand[i] = c;
         }
         
-        Card luckyCard = new Card;
+        Card luckyCard = new Card();
         luckyCard.setValue(5);
-        luckyCard.setSuit(2);
+        luckyCard.setSuit("Hearts");
         magicHand[6] = luckyCard;
+        
+        System.out.println("Lucky Card Suit: "+luckyCard.getSuit()+" Value: "+luckyCard.getValue());
         
         //insert code to ask the user for Card value and suit, create their card
         System.out.println("Pick a card value (1-13)");
