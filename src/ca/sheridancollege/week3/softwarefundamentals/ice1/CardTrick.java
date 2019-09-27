@@ -24,6 +24,8 @@ public class CardTrick {
             c.setValue(Math.round(i)*13);
               c.setSuit(Card.SUITS[0+Math.round(i)*4]);
         }
+   
+     String LuckyCard="10 Hearts";
         
         //insert code to ask the user for Card value and suit, create their card
         System.out.println("enter card value");
@@ -34,6 +36,7 @@ public class CardTrick {
         //Then report the result here
         
         //“Finished adding code for 3 and 4 to CardTrick.java”. 
+      //“ Hard-coded luckyCard” 
     }
     
 }
