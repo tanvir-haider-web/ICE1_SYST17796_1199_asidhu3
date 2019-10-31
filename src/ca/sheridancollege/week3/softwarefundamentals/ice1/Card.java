@@ -26,6 +26,8 @@ public class Card {
      */
     public String getSuit() {
         return suit;
+       
+       luckyCard 7 
     }
 
     /**
